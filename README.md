@@ -68,9 +68,6 @@ Built linear & logistic regression using only NumPy.
 
 `Python` · `NumPy` · `Math`
 
-    </td>
-    <td width="50%" valign="top">
-
 ### 📊 Customer Behavior Analytics
 End-to-end analytics on 3,900+ transactions.
 
@@ -79,8 +76,7 @@ End-to-end analytics on 3,900+ transactions.
 - Interactive Power BI dashboards
 
 `Python` · `PostgreSQL` · `Power BI`
-
-    </td>
+    
   </tr>
   <tr>
     <td width="50%" valign="top">
@@ -94,9 +90,6 @@ Streaming data pipeline with fraud detection.
 
 `Kafka` · `Spark` · `Airflow`
 
-    </td>
-    <td width="50%" valign="top">
-
 ### 🧠 Mental Health Agentic AI
 *Featured above ⬆️*
 
@@ -104,7 +97,6 @@ Production multi-agent platform with evaluation, monitoring, CI/CD.
 
 `FastAPI` · `Transformers` · `RAG` · `Multi-Agent`
 
-    </td>
   </tr>
 </table>
 
