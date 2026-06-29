@@ -171,7 +171,7 @@ I'm actively seeking **AI/ML Engineer roles** where I can:
 - 🚀 Ship end-to-end — from data pipeline to deployment to monitoring
 - 🤝 Collaborate with teams that value rigor and curiosity
 
-**Open to:** Full-time roles • Remote / Hybrid • Mumbai, India (or open to relocation)
+**Open to:** Full-time roles • Remote / Hybrid • Nepal (or open to relocation)
 
 ---
 
