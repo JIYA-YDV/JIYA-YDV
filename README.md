@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Jiya 👋</h1>
 
 <p align="center">
-  <b>Aspiring AI/ML Engineer</b> • MSc IT (AI) • Building production-grade ML systems
+  <b> AI/ML Engineer</b> • MSc IT (AI) • Building production-grade ML systems
 </p>
 
 <p align="center">
