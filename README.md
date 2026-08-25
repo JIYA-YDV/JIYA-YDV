@@ -32,6 +32,7 @@ I build **production-grade ML systems** — bridging the gap between fine-tuned 
 ### 🚀 Featured System
 
 ### 🧠 [Mental Health Agentic AI Platform](https://github.com/JIYA-YDV/Mental-Health-Agentic-AI-Platform) 
+[Check out Mental Health Agentic AI Platform](https://jiya-ydv.github.io/jiya-yadav.github.io/#about)
 > *Production-grade multi-agent NLP platform with ChromaDB RAG, SHAP explainability, and Groq LLM streaming.*
 
 <p align="left">
