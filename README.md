@@ -1,183 +1,115 @@
-<h1 align="center">Hi, I'm Jiya 👋</h1>
+<h1 align="center">Hi, I'm Jiya Yadav 👋</h1>
 
 <p align="center">
-  <b> AI/ML Engineer</b> • MSc IT (AI) • Building production-grade ML systems
+  <b>AI/ML Engineer</b> • MSc IT (AI/ML) • Building Production-Grade Agentic Systems
 </p>
 
 <p align="center">
+  <a href="https://huggingface.co/YDVJIYA">
+    <img src="https://img.shields.io/badge/🤗_Hugging_Face-Profile-FFD21E?style=flat-square" />
+  </a>
   <a href="https://www.linkedin.com/in/jiyayadav/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin" />
   </a>
   <a href="https://github.com/JIYA-YDV?tab=repositories">
-    <img src="https://img.shields.io/badge/Projects-Explore-181717?style=flat&logo=github" />
+    <img src="https://img.shields.io/badge/GitHub-Repos-181717?style=flat-square&logo=github" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=JIYA-YDV&color=blueviolet&style=flat" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=JIYA-YDV&color=blueviolet&style=flat-square" alt="Profile views" />
 </p>
 
 ---
 
-## 🧠 About Me
+### 🧠 About Me
 
-I build **end-to-end ML systems** — from raw math to production deployment.  
-My focus is **explainable, measurable, and reproducible AI** that holds up under scrutiny.
+I build **production-grade ML systems** — bridging the gap between fine-tuned models, agentic orchestration, and reliable API backends.
 
-- 🎯 **Currently building:** Multi-agent AI platforms with RAG, transformers, and full MLOps
-- 🔬 **Philosophy:** *"If I can't evaluate it, benchmark it, and explain it — I haven't built it."*
-- 📚 **Always learning:** Modern GenAI stack (LangGraph, LLM agents, fine-tuning)
-
----
-
-## 🚀 Featured Project
-
-### 🧠 [Mental Health Agentic AI Platform](https://github.com/JIYA-YDV/Mental-Health-Agentic-AI-Platform)
-
-> Production-grade multi-agent AI platform for mental health intelligence.
-
-[![CI](https://github.com/JIYA-YDV/Mental-Health-Agentic-AI-Platform/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/JIYA-YDV/Mental-Health-Agentic-AI-Platform/actions)
-[![Tests](https://img.shields.io/badge/tests-69%20passing-brightgreen)](https://github.com/JIYA-YDV/Mental-Health-Agentic-AI-Platform)
-[![Coverage](https://img.shields.io/badge/coverage-74%25-green)](https://github.com/JIYA-YDV/Mental-Health-Agentic-AI-Platform)
-[![Macro F1](https://img.shields.io/badge/macro_F1-0.87-brightgreen)](https://github.com/JIYA-YDV/Mental-Health-Agentic-AI-Platform/blob/main/docs/EVALUATION.md)
-[![Crisis Recall](https://img.shields.io/badge/crisis_recall-93%25-brightgreen)](https://github.com/JIYA-YDV/Mental-Health-Agentic-AI-Platform/blob/main/docs/EVALUATION.md)
-
-**What it does:** Async 4-agent pipeline classifies emotion → detects crisis signals → retrieves wellness resources via RAG → generates personalized recommendations.
-
-**Stack:** FastAPI · Streamlit · PyTorch · Transformers · ChromaDB · Pydantic v2 · pytest · GitHub Actions
-
-**Key achievements:**
-- 🎯 **0.87 macro F1** on 1K-sample benchmark (top 15% for emotion classification)
-- 🚨 **93% crisis recall** — catches >9 of 10 distress signals
-- ⚡ **31ms inference latency** on CPU (3× under real-time UX threshold)
-- 🧪 **69 automated tests, 74% coverage** with mocked ML for sub-8s CI feedback
-- 🤖 **Multi-agent async orchestration** cutting latency 40% vs sequential
+* 🎯 **Currently Building:** Multi-agent RAG platforms, fine-tuned transformer microservices, and trust & safety guardrails.
+* 🔬 **Engineering Philosophy:** *"If it isn't evaluable, explainable, and monitored in production, it's just a notebook prototype."*
+* ⚡ **Core Focus:** Async ML pipelines, vector search (ChromaDB), explainable AI (SHAP), and MLOps.
 
 ---
 
-## 🛠️ Featured Repositories
+### 🚀 Featured System
+
+### 🧠 [Mental Health Agentic AI Platform](https://github.com/JIYA-YDV/Mental-Health-Agentic-AI-Platform) 
+> *Production-grade multi-agent NLP platform with ChromaDB RAG, SHAP explainability, and Groq LLM streaming.*
+
+<p align="left">
+  <a href="https://huggingface.co/spaces/YDVJIYA/mental-health-ai-platform">
+    <img src="https://img.shields.io/badge/🤗_Live_Demo-HF_Space-FFD21E?style=flat-square" />
+  </a>
+  <a href="https://huggingface.co/YDVJIYA/distilroberta-base-finetuned-emotion">
+    <img src="https://img.shields.io/badge/Model-Fine--Tuned_DistilRoBERTa-blue?style=flat-square" />
+  </a>
+  <img src="https://img.shields.io/badge/Macro_F1-0.89-brightgreen?style=flat-square" />
+  <img src="https://img.shields.io/badge/Crisis_Recall-96%25-brightgreen?style=flat-square" />
+  <img src="https://img.shields.io/badge/Latency-Sub--500ms-purple?style=flat-square" />
+</p>
+
+* **Fine-Tuned Emotion Intelligence:** DistilRoBERTa fine-tuned on 16K samples (**0.89 Macro F1, 96% Crisis Recall**).
+* **Async Multi-Agent Architecture:** Sequential classification → parallel execution (`asyncio.gather`) of Crisis, Vector RAG, and Explainer agents (**45% latency reduction**).
+* **Vector RAG & Fallbacks:** ChromaDB + `all-MiniLM-L6-v2` embeddings with two-tier similarity thresholds (0.40 strict / 0.25 floor) and curated emotion fallbacks.
+* **Safety Guardrails:** Multi-signal risk scoring (18+ crisis keywords + confidence thresholds) with automated 988 resource routing and LLM response bypass.
+
+`FastAPI` · `PyTorch` · `Streamlit` · `ChromaDB` · `Groq API` · `Prometheus` · `pytest`
+
+---
+
+### 🛠️ Other Highlighted Work
 
 <table>
   <tr>
     <td width="50%" valign="top">
 
-### 🔢 Gradient Descent From Scratch
-Built linear & logistic regression using only NumPy.  
-**No sklearn. No PyTorch. Just math.**
+#### 📈 [E-Commerce CLV Optimization](https://github.com/JIYA-YDV/E-Commerce-Customer-Lifetime-Value-Optimization)
+End-to-end customer analytics pipeline on **393K+ transactions (£7.2M revenue)**.
 
-- Manual gradient descent implementation
-- Loss curve visualization & convergence analysis
-- Batch vs SGD vs Mini-batch comparison
+* Built 6-tier RFM segmentation (identified 26% driving 62% revenue)
+* Executed FP-Growth market basket analysis
+* Power BI interactive dashboards via PostgreSQL data warehouse
 
-`Python` · `NumPy` · `Math`
-
-### 📊 Customer Behavior Analytics
-End-to-end analytics on 3,900+ transactions.
-
-- SQL data extraction & cleaning
-- Behavioral segmentation
-- Interactive Power BI dashboards
-
-`Python` · `PostgreSQL` · `Power BI`
-    
-  </tr>
-  <tr>
+`Python` · `Pandas` · `PostgreSQL` · `Power BI` · `MLxtend`
+    </td>
     <td width="50%" valign="top">
 
-### ⚡ Real-Time E-commerce Pipeline
-Streaming data pipeline with fraud detection.
+#### ⚡ [Automated Airflow ETL Pipeline](https://github.com/JIYA-YDV/automated-etl-pipeline-airflow-postgresql)
+Production weather data pipeline with automated data-quality checks.
 
-- Kafka event streaming
-- Spark real-time processing
-- Airflow orchestration
+* Ingests hourly OpenWeatherMap API data into PostgreSQL
+* Orchestrated with Apache Airflow on WSL2/Ubuntu
+* 25 automated quality assertions + 27 unit tests (100% pass)
 
-`Kafka` · `Spark` · `Airflow`
-
-### 🧠 Mental Health Agentic AI
-*Featured above ⬆️*
-
-Production multi-agent platform with evaluation, monitoring, CI/CD.
-
-`FastAPI` · `Transformers` · `RAG` · `Multi-Agent`
-
+`Python 3.10` · `Apache Airflow 2.8` · `PostgreSQL` · `pytest`
+    </td>
   </tr>
 </table>
 
 ---
 
-## 🛠️ Tech Stack
+### 💻 Technical Stack
 
-**Languages & Core**  
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat&logo=pandas&logoColor=white)
+**AI / NLP & Frameworks**  
+`PyTorch` • `Hugging Face Transformers` • `Scikit-learn` • `Sentence-Transformers` • `SHAP` • `ChromaDB` • `Groq API`
 
-**Machine Learning & AI**  
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![Transformers](https://img.shields.io/badge/-🤗_Transformers-FFD21E?style=flat)
-![scikit-learn](https://img.shields.io/badge/-scikit_learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/-ChromaDB-FF6F00?style=flat)
+**Backend & Data Engineering**  
+`FastAPI` • `AsyncIO` • `Streamlit` • `Pydantic v2` • `Apache Airflow` • `PostgreSQL` • `Pandas` • `NumPy`
 
-**Backend & APIs**  
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
-![Pydantic](https://img.shields.io/badge/-Pydantic-E92063?style=flat)
-
-**Data Engineering**  
-![Kafka](https://img.shields.io/badge/-Apache_Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white)
-![Spark](https://img.shields.io/badge/-Apache_Spark-E25A1C?style=flat&logo=apache-spark&logoColor=white)
-![Airflow](https://img.shields.io/badge/-Airflow-017CEE?style=flat&logo=apache-airflow&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
-
-**MLOps & DevOps**  
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
-![pytest](https://img.shields.io/badge/-pytest-0A9EDC?style=flat&logo=pytest&logoColor=white)
-
-**Visualization**  
-![Power BI](https://img.shields.io/badge/-Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
-![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557C?style=flat)
-![Seaborn](https://img.shields.io/badge/-Seaborn-444876?style=flat)
+**MLOps & Tools**  
+`Git` • `GitHub Actions (CI/CD)` • `pytest` • `Prometheus` • `structlog` • `Docker` • `Hugging Face Spaces`
 
 ---
 
-## 📈 Currently Learning
-
-- 🤖 **GenAI stack:** LangGraph, LLM agents, fine-tuning workflows
-- 🔬 **Model interpretability:** SHAP, attention visualization, attribution methods
-- ⚙️ **MLOps maturity:** MLflow experiment tracking, model registries, A/B testing
-- ☁️ **Cloud deployment:** AWS SageMaker, model serving at scale
-
----
-## 🎯 What I'm Looking For
-
-I'm actively seeking **AI/ML Engineer roles** where I can:
-
-- 🏗️ Build production ML systems that real users depend on
-- 🔬 Work on explainable, evaluable, measurable AI
-- 🚀 Ship end-to-end — from data pipeline to deployment to monitoring
-- 🤝 Collaborate with teams that value rigor and curiosity
-
-**Open to:** Full-time roles • Remote / Hybrid • Nepal (or open to relocation)
-
----
-
-## 📫 Let's Connect
+### 📫 Connect With Me
 
 <p align="left">
   <a href="https://www.linkedin.com/in/jiyayadav/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://github.com/JIYA-YDV">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+  <a href="mailto:jiyayadav102@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
 
----
-
 <p align="center">
-  <i>"I don't just train models — I evaluate them, explain them, and ship them."</i>
-</p>
-
-<p align="center">
-  ⭐ <i>If something here resonates, feel free to reach out — I love talking shop about ML.</i>
+  <i>"I don't just train models — I evaluate them, secure them, and ship them."</i>
 </p>
